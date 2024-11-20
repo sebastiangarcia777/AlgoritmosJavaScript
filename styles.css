@@ -1,0 +1,40 @@
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px 0 100PX;
+    text-align: center;
+    background: #0d1258;
+}
+
+h1{
+    color: #fff;
+    font-size: 52px;
+}
+
+h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+p{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+button{
+    background: transparent;
+    color: aqua;
+    border: 2PX solid aqua;
+    padding: 14px 40px;
+    border-radius: 50px;
+    margin: 20px 30px;
+    transition: 4s;
+    cursor: pointer;
+}
+
+button:hover{
+    background: aqua;
+    color: black;
+    border-radius: 0;
+}
